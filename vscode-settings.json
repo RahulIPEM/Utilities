@@ -1,0 +1,32 @@
+{
+  "workbench.colorTheme": "Yi Dark",
+  "editor.fontFamily": "Fira Code iScript, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "svelte.enable-ts-plugin": true,
+  "window.zoomLevel": 1,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "storage.modifier",
+          "storage.type.class.js",
+          "storage.type.js"
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": ["keyword.control.conditional", "keyword.operator"],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+},
+"editor.fontSize": 14
+}
